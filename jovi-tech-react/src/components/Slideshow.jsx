@@ -21,11 +21,20 @@ function Slideshow() {
 
   return (
     <div id="slideshow">
-      ...
+      <div id="slide-conteudo">
+        <img src={slides[atual].img} style={{ width: "100%", height: "220px", objectFit: "cover", display: "block" }} />
+        <div style={{ padding: "12px" }}>
+          <strong>{slides[atual].titulo}</strong>
+          <p>{slides[atual].desc}</p>
+        </div>
+      </div>
+      <div>
+        <button onClick={() => mudarSlide(-1)}>← Anterior</button>
+        <span>{atual + 1} / {slides.length}</span>
+        <button onClick={() => mudarSlide(1)}>Próximo →</button>
+      </div>
     </div>
   );
 }
 
 export default Slideshow;
-
-
