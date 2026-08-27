@@ -35,4 +35,4 @@ A estrutura do projeto e a divisão dos componentes (Header, Slideshow, TechCard
 https://github.com/Scalone-vini/Webdev-sprint3
 
 ## Link do Deploy na Vercel
-_(adicionar aqui após o deploy)_
+https://webdev-sprint3.vercel.app
